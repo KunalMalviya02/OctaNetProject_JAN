@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #0c0c0c;
+    background-color: #cffffa;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #4458cd;
+    color: white;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero {
+    text-align: center;
+    padding: 250px 90px;
+    background: url('hero.jpg') no-repeat center center/cover;
+    color: rgb(58, 20, 2);
+}
+
+.hero .btn {
+    padding: 10px 25px;
+    background: #ff4500;
+    color: white;
+    text-decoration: none;
+}
+
+.services, .destinations, .testimonials, .contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.service-item, .destination-item {
+    margin: 20px 0;
+}
+
+.contact form input, .contact form textarea {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.contact form button {
+    padding: 10px 25px;
+    background: #1e90ff;
+    color: white;
+    border: none;
+}
